@@ -1,0 +1,27 @@
+# Ignore all markdown files
+*.md
+
+# But keep README
+!README.md
+
+# Ignore notebooks
+notebooks/
+
+# Ignore VS Code settings
+.vscode/
+
+# Ignore data
+data/raw/
+data/processed/
+
+# Ignore virtual environments
+venv/
+.env/
+
+# Python cache
+__pycache__/
+*.pyc
+
+# OS files
+.DS_Store
+Thumbs.db
